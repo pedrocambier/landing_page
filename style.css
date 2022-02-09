@@ -1,0 +1,48 @@
+body{
+  display: flex;
+  flex-direction: column;
+}
+
+.footer {
+  text-align: center;
+}
+
+a {
+  text-decoration: none;
+}
+
+ul{
+  list-style: none;
+}
+
+.section1, .footer {
+  background-color: #1f2937;
+}
+
+.section2, .section4 {
+  background-color: white;
+}
+
+.section3 {
+  background-color: #e5e7eb;
+  color: #1f2937;
+  font-size: 36px;
+}
+
+a, .hero p {
+  font-size: 18ppx;
+  color: #e5e7eb;
+}
+
+.hero .title, .header.logo {
+  color: #f9faf8;
+}
+
+.header.logo {
+  font-size: 24px;
+}
+
+.hero .title {
+  font-size: 48px;
+  font-weight: 900;
+}
