@@ -26,6 +26,11 @@ footer, .s1 {
   flex: 0;
 }
 
+.s4,
+.s3  {
+  flex: 1;
+}
+
 .💪{
   display: flex;  
 }
@@ -34,9 +39,10 @@ footer, .s1 {
   flex: 1.5;
 }
 
-.s4,
-.s3  {
-  flex: 1;
+.s3 {
+  flex-direction: column;
+  align-items: flex-end;
+  justify-content: center;
 }
 
 .s4 {
@@ -164,6 +170,12 @@ footer,
   padding: 32px 250px;
 }
 
+footer,
+.s1,
+.s2,
+.s4 {
+  padding: 32px 250px;
+}
 /* Section 1 specific stylings */
 
 .s1-hero {
@@ -231,7 +243,11 @@ footer,
   font-weight: bold;
   font-size: 24px;
   color: #1f2937;
-  text-align: right;
+  margin-right: 46px;
+}
+
+.s3 {
+  padding: 32px 405px;
 }
 
 /* Section 4 specific stylings */
