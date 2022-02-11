@@ -145,6 +145,20 @@ button {
   border: none;
 }
 
+.🔦, .🖱 {
+  box-shadow: 3px 6px 15px rgba(31, 41, 55, 0.36);
+}
+
+.🖱 {
+  transition: transform 300ms, box-shadow 300ms;
+}
+
+.🖱:hover {
+  transform: scale(1.025);
+  box-shadow: 3px 10px 40px rgba(31, 41, 55, 0.25);
+  border-color: #3882f6;
+}
+
 /* Sections General stylings */
 
 footer,
@@ -212,10 +226,10 @@ footer,
 }
 
 .s2-cimg {
-  border: 4px solid #3882f6;
+  border: 4px solid #3881f6b7;
   border-radius: 16px;
   height: 180px;
-  margin-bottom: 8px;
+  margin-bottom: 32px;
 }
 
 .s2 p {
